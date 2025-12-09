@@ -1,8 +1,6 @@
 clear
 set more off
 capture log close
-cd "wd"
-** 나머지 경로는 전부 상대경로로 작성
 
 log using "./output/log/merge.log", replace
 
