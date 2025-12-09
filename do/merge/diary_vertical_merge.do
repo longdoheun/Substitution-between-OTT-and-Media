@@ -1,8 +1,6 @@
 clear
 set more off
 capture log close
-cd "/Users/doheun/documents/Stata/IODS_2025" // project folder
-** 나머지 경로는 전부 상대경로로 작성
 
 * 수면 시간, 장소, OTT[연결] 사용은 jointly 일어날 수 있음.
 * 예를 들어 직장에서 OTT를 틀어두고 잠에 들 수 있음. 이러한 모호한 경우에 대한 분류가 필요.
